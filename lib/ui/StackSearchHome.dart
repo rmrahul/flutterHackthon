@@ -22,7 +22,7 @@ class StackSearchHomeState extends State<StackSearchHome> {
   Widget _buildScaffold(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          centerTitle: true,
+          centerTitle: false,
           title: _appTitle(AppConstants.appTitle,24),
           elevation: 2.0,
         ),

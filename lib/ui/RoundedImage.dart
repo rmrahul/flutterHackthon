@@ -14,18 +14,9 @@ class RoundedImage extends StatelessWidget {
       children: <Widget>[
         Expanded(
           child: Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-                boxShadow: [
-                  BoxShadow(
-                      color: Colors.black12,
-                      offset: Offset(0.0, 3.0),
-                      blurRadius: 10.0)
-                ],
-                borderRadius: BorderRadius.circular(15),
-              ),
-              child: ClipRRect(
-              borderRadius: BorderRadius.circular(15.0),
+            color: Colors.transparent,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(100.0),
               child: TransitionToImage(
                 transitionType: TransitionType.slide,
                 image: AdvancedNetworkImage(

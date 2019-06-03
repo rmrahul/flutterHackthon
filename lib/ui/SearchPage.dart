@@ -75,7 +75,7 @@ class SearchPageState extends State<SearchPage> {
                     hintText: AppConstants.hintText,
                     counterText: "",
                     focusedBorder: UnderlineInputBorder(),
-                    border: InputBorder.none,
+                    border: UnderlineInputBorder(),
                     suffixIcon: _addAction()),
               ),
             ),

@@ -7,7 +7,7 @@ class ColorUtil{
 
 
   static Color appTextColor(){
-    return Colors.teal;
+    return Colors.black54;
   }
   static Color appListTextColor(){
     return Colors.black54;
